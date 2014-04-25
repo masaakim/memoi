@@ -1,0 +1,20 @@
+{
+  "name": "memoi",
+  "version": "0.0.0",
+  "description": "Memoize with any storages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morishitter.memoi.git"
+  },
+  "keywords": [
+    "memoize",
+    "storage",
+    "cache"
+  ],
+  "author": "Masaaki Morishita",
+  "license": "MIT"
+}
