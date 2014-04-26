@@ -1,7 +1,5 @@
 
-var Memoi = require('memoi');
-
-var memoi = new Memoi();
+var memoi = require('memoi');
 var fib = memoi.memoize(function(n) {
   if (n < 2) {
     return n;
