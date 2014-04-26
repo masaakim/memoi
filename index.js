@@ -1,3 +1,9 @@
 
 var Memoi = require('./lib/memoi.js');
-module.exports = new Memoi();
+
+var memoi = function(option) {
+  if (option) new Memoi(option)
+  else new Memoi()
+};
+
+module.exports = memoi;
