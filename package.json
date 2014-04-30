@@ -4,7 +4,7 @@
   "description": "Memoize with any storages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
     "cache"
   ],
   "author": "Masaaki Morishita",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "^0.4.9",
+    "tape": "^2.12.3"
+  }
 }
