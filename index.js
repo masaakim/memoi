@@ -1,5 +1,5 @@
 
-module.exports = function(fn) {
+module.exports.ze = function(fn) {
   var memo = {};
   function identity(val) {
     return val;
