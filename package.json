@@ -1,6 +1,6 @@
 {
   "name": "memoi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Memoize with any storages",
   "main": "index.js",
   "scripts": {
